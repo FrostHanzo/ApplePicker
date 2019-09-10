@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 592142160}
   - component: {fileID: 592142159}
   - component: {fileID: 592142158}
+  - component: {fileID: 592142161}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -194,6 +195,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &592142161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592142157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e9616f66b1be64ba623610afeec6bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketPrefab: {fileID: 4288472547122715622, guid: ddf4cdea43c4e0a4b901432338e98e73,
+    type: 3}
+  numBaskets: 3
+  basketBottomY: -14
+  basketSpacingY: 2
 --- !u!1 &1136685336
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,16 +347,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4320700025444907994, guid: dee8f58a711e85048a78533b61c68137,
-        type: 3}
-      propertyPath: leftAndRightEdge
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 4320700025444907994, guid: dee8f58a711e85048a78533b61c68137,
-        type: 3}
-      propertyPath: speed
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dee8f58a711e85048a78533b61c68137, type: 3}
